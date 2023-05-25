@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bpftrace on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/bpftrace/</link>
+    <link>https://le0nhwan9.github.io/tags/bpftrace/</link>
     <description>Recent content in bpftrace on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 21 May 2023 23:29:32 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/bpftrace/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 May 2023 23:29:32 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/bpftrace/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: XDP 转发失败了</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-29-failed-to-xdp-redirect/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-29-failed-to-xdp-redirect/</link>
       <pubDate>Sun, 21 May 2023 23:29:32 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-29-failed-to-xdp-redirect/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-29-failed-to-xdp-redirect/</guid>
       <description>奇葩场景遇到个奇葩问题。 为了更好的性能，就将 XDP 程序挂载到网卡驱动里。但有个业务需求，在 XDP 程序里将需要延迟的流量转发到 veth 设备。所以，就直接在 XDP</description>
     </item>
     
     <item>
       <title>使用 drgn 查看网络设备的私有数据</title>
-      <link>https://asphaltt.github.io/post/drgn-netdev_priv/</link>
+      <link>https://le0nhwan9.github.io/post/drgn-netdev_priv/</link>
       <pubDate>Sun, 01 Jan 2023 22:52:56 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/drgn-netdev_priv/</guid>
+      <guid>https://le0nhwan9.github.io/post/drgn-netdev_priv/</guid>
       <description>这是 drgn 的一个使用例子。 最近在追踪一个 veth 网络设备的问题的时候，发现需要查看 veth 网络设备的 netdev_priv() 获取的私有数据。 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19</description>
     </item>
     

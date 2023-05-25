@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>trampoline on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/trampoline/</link>
+    <link>https://le0nhwan9.github.io/tags/trampoline/</link>
     <description>Recent content in trampoline on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 23 May 2023 23:02:47 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/trampoline/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 23:02:47 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/trampoline/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: trampoline stack on x86【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-44-trampoline-stack-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-44-trampoline-stack-on-x86/</link>
       <pubDate>Tue, 23 May 2023 23:02:47 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-44-trampoline-stack-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-44-trampoline-stack-on-x86/</guid>
       <description>前面学习了 trampoline 的工作原理： eBPF Talk: trampoline on x86【汇编慎入】 eBPF Talk: trampoline on x86【续】【汇编慎入】 继续深入学习 trampoline 底层实现，回答以下 2 个问题： fentry bpf prog 是如何获取</description>
     </item>
     
     <item>
       <title>eBPF Talk: trampoline on x86【续】【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-43-trampoline-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-43-trampoline-on-x86/</link>
       <pubDate>Tue, 23 May 2023 22:55:23 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-43-trampoline-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-43-trampoline-on-x86/</guid>
       <description>书接上回，使用 fexit 的时候，为什么在 ret 前增加 add $0x8,%rsp 指令就能跳过执行原来的函数？ eBPF Talk: trampoline on x86【汇编慎入】 call 学习一下几条常用指令： call %N: 相当于 push %eip + mov</description>
     </item>
     
     <item>
       <title>eBPF Talk: trampoline on x86【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-42-trampoline-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-42-trampoline-on-x86/</link>
       <pubDate>Tue, 23 May 2023 22:45:15 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-42-trampoline-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-42-trampoline-on-x86/</guid>
       <description>类似 freplace，trampoline 是对 prologue 进行 poke 的另一个应用。 eBPF Talk: freplace on x86【汇编慎入】 TL;DR 类似 freplace，trampoline 是</description>
     </item>
     
     <item>
       <title>eBPF Talk: 比 kprobe 更好的 trampoline</title>
-      <link>https://asphaltt.github.io/post/ebpf-trampoline-better-than-kprobe/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-trampoline-better-than-kprobe/</link>
       <pubDate>Tue, 01 Nov 2022 23:31:04 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-trampoline-better-than-kprobe/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-trampoline-better-than-kprobe/</guid>
       <description>eBPF trampoline（trampoline：蹦床，翻译后并不好理解，所以不作翻译）是内核函数和 eBPF 程序之间的桥梁，基于 register_ftrace_direct() 实现。它实现了 kprobe/kretprobe 的功</description>
     </item>
     

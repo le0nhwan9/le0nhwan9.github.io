@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>socket on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/socket/</link>
+    <link>https://le0nhwan9.github.io/tags/socket/</link>
     <description>Recent content in socket on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 12 Feb 2021 23:34:58 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/socket/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Feb 2021 23:34:58 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/socket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>knetstat：查看 socket 的 IP_TRANSPARENT 选项</title>
-      <link>https://asphaltt.github.io/post/linux-show-socket-ip_transparent-option/</link>
+      <link>https://le0nhwan9.github.io/post/linux-show-socket-ip_transparent-option/</link>
       <pubDate>Fri, 12 Feb 2021 23:34:58 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-show-socket-ip_transparent-option/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-show-socket-ip_transparent-option/</guid>
       <description>在做 Linux 代理流量回放实验 的时候，因为遇到了问题，所以想看下 socket 的 IP_TRANSPARENT 选项是否设置了。该实验使用了 Linux 透明代理的功能，而 Linux 透明代理需要用户程序在使用 socket</description>
     </item>
     

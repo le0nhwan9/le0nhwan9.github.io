@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bpf2bpf on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/bpf2bpf/</link>
+    <link>https://le0nhwan9.github.io/tags/bpf2bpf/</link>
     <description>Recent content in bpf2bpf on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 23 May 2023 22:06:44 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/bpf2bpf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 22:06:44 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/bpf2bpf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: bpf2bpf &amp; tailcall 报错分析</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-35-bpf2bpf-and-tailcall-error/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-35-bpf2bpf-and-tailcall-error/</link>
       <pubDate>Tue, 23 May 2023 22:06:44 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-35-bpf2bpf-and-tailcall-error/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-35-bpf2bpf-and-tailcall-error/</guid>
       <description>终于要将 bpf2bpf &amp;amp; tailcall 的组合落地到项目中了。 不过，当头一棒的是：tail_calls are not allowed when call stack of previous frames is 256 bytes. Too large。 幸好学习过 eBPF Talk: tailcall on x86，</description>
     </item>
     
     <item>
       <title>eBPF Talk: tailcall on x86【汇编慎入】【译】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-33-tailcall-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-33-tailcall-on-x86/</link>
       <pubDate>Tue, 23 May 2023 21:48:41 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-33-tailcall-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-33-tailcall-on-x86/</guid>
       <description>本文翻译自 Assembly within! BPF tail calls on x86 and ARM，翻译了其中 tailcall 与 x86 部分，略过 arm 部分。 eBPF Talk: tailcall 与 bpf2bpf 【译】 以下为译文。 最初我们学习编程的时候，我们就学习了 递归。较</description>
     </item>
     
     <item>
       <title>eBPF Talk: tailcall 与 bpf2bpf【译】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-32-tailcall-and-bpf2bpf/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-32-tailcall-and-bpf2bpf/</link>
       <pubDate>Tue, 23 May 2023 21:44:17 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-32-tailcall-and-bpf2bpf/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-32-tailcall-and-bpf2bpf/</guid>
       <description>本文翻译自 Cilium 出品的 BPF and XDP Reference Guide，翻译了其中的 tailcall 和 bpf2bpf 部分。 tailcall：尾调用。 bpf2bpf：BPF 到 BPF 函数调用。 tailcall tailcall 可以看作允许</description>
     </item>
     
     <item>
       <title>eBPF Talk: bpf2bpf 特性揭秘</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-14-bpf2bpf-functions-call/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-14-bpf2bpf-functions-call/</link>
       <pubDate>Sat, 20 May 2023 17:26:45 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-14-bpf2bpf-functions-call/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-14-bpf2bpf-functions-call/</guid>
       <description>在 eBPF Talk: bpf2bpf 特性简介 中已介绍了 bpf2bpf 特性，同时有 demo 介绍该怎么使用该特性。 在该特性神秘面纱的背后，到底是怎样的呢？让我娓娓道来。 编译阶段 不懂编译器 clang 中</description>
     </item>
     
     <item>
       <title>eBPF Talk: bpf2bpf 特性简介</title>
-      <link>https://asphaltt.github.io/post/ebpf-bpf2bpf-functions-call/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-bpf2bpf-functions-call/</link>
       <pubDate>Wed, 16 Nov 2022 22:32:06 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-bpf2bpf-functions-call/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-bpf2bpf-functions-call/</guid>
       <description>最近才了解到 eBPF 里有 bpf2bpf 这个特性，故特意学习了一番。 bpf2bpf 简介 bpf2bpf 特性要求 4.16 内核版本，参考 BPF Features by Linux Kernel Version。 在 bpf2bpf 特性出现之前，eBPF 程序都要</description>
     </item>
     

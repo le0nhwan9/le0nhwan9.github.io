@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>全局变量 on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/</link>
+    <link>https://le0nhwan9.github.io/tags/%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/</link>
     <description>Recent content in 全局变量 on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 21 May 2023 23:38:54 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 May 2023 23:38:54 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: 全局变量、常量与 bpf map</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-31-global-variable-constant-variable-and-bpf-map/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-31-global-variable-constant-variable-and-bpf-map/</link>
       <pubDate>Sun, 21 May 2023 23:38:54 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-31-global-variable-constant-variable-and-bpf-map/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-31-global-variable-constant-variable-and-bpf-map/</guid>
       <description>全局变量的用法请参考 eBPF Talk: 全局变量实战指南。 常量的使用例子请参考 为 eBPF 程序注入黑魔法。 有同事提了个问题：在 eBPF 运行的时候是怎么访问它们的内存的呢？</description>
     </item>
     
     <item>
       <title>eBPF Talk: 全局变量实战指南</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-22-global-variables-in-action/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-22-global-variables-in-action/</link>
       <pubDate>Sun, 21 May 2023 16:12:19 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-22-global-variables-in-action/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-22-global-variables-in-action/</guid>
       <description>类似于常量的使用，如今在 eBPF 里也能够使用全局变量了。 使用例子 源代码：global-variable example 以 kprobe TCP 连接建立事件为例子，当有新的 TCP 连接时</description>
     </item>
     

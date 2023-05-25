@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>x86 on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/x86/</link>
+    <link>https://le0nhwan9.github.io/tags/x86/</link>
     <description>Recent content in x86 on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 23 May 2023 23:02:47 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/x86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 23:02:47 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/x86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: trampoline stack on x86【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-44-trampoline-stack-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-44-trampoline-stack-on-x86/</link>
       <pubDate>Tue, 23 May 2023 23:02:47 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-44-trampoline-stack-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-44-trampoline-stack-on-x86/</guid>
       <description>前面学习了 trampoline 的工作原理： eBPF Talk: trampoline on x86【汇编慎入】 eBPF Talk: trampoline on x86【续】【汇编慎入】 继续深入学习 trampoline 底层实现，回答以下 2 个问题： fentry bpf prog 是如何获取</description>
     </item>
     
     <item>
       <title>eBPF Talk: trampoline on x86【续】【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-43-trampoline-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-43-trampoline-on-x86/</link>
       <pubDate>Tue, 23 May 2023 22:55:23 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-43-trampoline-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-43-trampoline-on-x86/</guid>
       <description>书接上回，使用 fexit 的时候，为什么在 ret 前增加 add $0x8,%rsp 指令就能跳过执行原来的函数？ eBPF Talk: trampoline on x86【汇编慎入】 call 学习一下几条常用指令： call %N: 相当于 push %eip + mov</description>
     </item>
     
     <item>
       <title>eBPF Talk: trampoline on x86【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-42-trampoline-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-42-trampoline-on-x86/</link>
       <pubDate>Tue, 23 May 2023 22:45:15 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-42-trampoline-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-42-trampoline-on-x86/</guid>
       <description>类似 freplace，trampoline 是对 prologue 进行 poke 的另一个应用。 eBPF Talk: freplace on x86【汇编慎入】 TL;DR 类似 freplace，trampoline 是</description>
     </item>
     
     <item>
       <title>eBPF Talk: freplace on x86【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-41-freplace-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-41-freplace-on-x86/</link>
       <pubDate>Tue, 23 May 2023 22:31:24 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-41-freplace-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-41-freplace-on-x86/</guid>
       <description>freplace 技术便是对 prologue 进行 poke 的简单应用。 eBPF Talk: poke on x86【汇编慎入】 eBPF Talk: perilogue on x86【汇编慎入】 TL;DR 究竟有多简单呢？就是将 prologue 里的第一条 nop 指令替换成 jmp 指令；</description>
     </item>
     
     <item>
       <title>eBPF Talk: perilogue on x86【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-40-perilogue-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-40-perilogue-on-x86/</link>
       <pubDate>Tue, 23 May 2023 22:25:35 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-40-perilogue-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-40-perilogue-on-x86/</guid>
       <description>perilogue 是个缝合单词，由 prologue 和 epilogue 缝合组成。 而 prologue 和 epilogue 是 函数调用规约 中的术语。 prologue: 函数整体指令中最开始的几条指令。 epilogue: 函数整体指令中最末尾的几条指令。 perilogue: 函数</description>
     </item>
     
     <item>
       <title>eBPF Talk: poke on x86【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-39-poke-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-39-poke-on-x86/</link>
       <pubDate>Tue, 23 May 2023 22:22:24 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-39-poke-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-39-poke-on-x86/</guid>
       <description>小司机们，是时候学习真正的 eBPF 挖掘机技术了：指令插桩，以及指令 live patch。 TL;DR 在 x86 架构平台上的指令插桩&amp;amp;补丁的步骤如下： 在需要的地方预</description>
     </item>
     
     <item>
       <title>eBPF Talk: tailcall on x86【汇编慎入】【译】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-33-tailcall-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-33-tailcall-on-x86/</link>
       <pubDate>Tue, 23 May 2023 21:48:41 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-33-tailcall-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-33-tailcall-on-x86/</guid>
       <description>本文翻译自 Assembly within! BPF tail calls on x86 and ARM，翻译了其中 tailcall 与 x86 部分，略过 arm 部分。 eBPF Talk: tailcall 与 bpf2bpf 【译】 以下为译文。 最初我们学习编程的时候，我们就学习了 递归。较</description>
     </item>
     

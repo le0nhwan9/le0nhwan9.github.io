@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>常量 on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/%E5%B8%B8%E9%87%8F/</link>
+    <link>https://le0nhwan9.github.io/tags/%E5%B8%B8%E9%87%8F/</link>
     <description>Recent content in 常量 on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 21 May 2023 23:38:54 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/%E5%B8%B8%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 May 2023 23:38:54 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/%E5%B8%B8%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: 全局变量、常量与 bpf map</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-31-global-variable-constant-variable-and-bpf-map/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-31-global-variable-constant-variable-and-bpf-map/</link>
       <pubDate>Sun, 21 May 2023 23:38:54 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-31-global-variable-constant-variable-and-bpf-map/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-31-global-variable-constant-variable-and-bpf-map/</guid>
       <description>全局变量的用法请参考 eBPF Talk: 全局变量实战指南。 常量的使用例子请参考 为 eBPF 程序注入黑魔法。 有同事提了个问题：在 eBPF 运行的时候是怎么访问它们的内存的呢？</description>
     </item>
     

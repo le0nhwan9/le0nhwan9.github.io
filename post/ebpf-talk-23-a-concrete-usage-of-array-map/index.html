@@ -28,7 +28,7 @@
 <meta name="generator" content="Hugo 0.88.1 with theme even" />
 
 
-<link rel="canonical" href="https://asphaltt.github.io/post/ebpf-talk-23-a-concrete-usage-of-array-map/" />
+<link rel="canonical" href="https://le0nhwan9.github.io/post/ebpf-talk-23-a-concrete-usage-of-array-map/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/%20apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/%20favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/%20favicon-16x16.png">
@@ -44,7 +44,7 @@
 <meta property="og:title" content="eBPF Talk: 一个 ARRAY bpf map 的使用细节" />
 <meta property="og:description" content="创建 bpf map 时，出现了如下错误： 1 failed to load bpf: failed to create map: invalid argument 看下需要创建的 bpf map： 1 2 3 4 5 6 struct { __uint(type, BPF_MAP_TYPE_ARRAY); __type(key, __u8); __type(value, bitmap); __uint(max_entries, PROTO_MAX_ENTRIES); } acl_protocol SEC(&#34;.maps&#34;); 想着，需要处理的 protocol 也就 TCP" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://asphaltt.github.io/post/ebpf-talk-23-a-concrete-usage-of-array-map/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="https://le0nhwan9.github.io/post/ebpf-talk-23-a-concrete-usage-of-array-map/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2023-05-21T16:17:25+08:00" />
 <meta property="article:modified_time" content="2023-05-21T16:17:25+08:00" />
 
@@ -371,7 +371,7 @@ key 类型 <code>__u8</code>；因为每个 key 只需要占用 1 个字节。</
       <a href="mailto:le0nhwan9@gmail.com" class="iconfont icon-email" title="email"></a>
       <a href="https://twitter.com/LeonHuayra" class="iconfont icon-twitter" title="twitter"></a>
       <a href="https://github.com/Asphaltt" class="iconfont icon-github" title="github"></a>
-  <a href="https://asphaltt.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+  <a href="https://le0nhwan9.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
 </div>
 
 <div class="copyright">

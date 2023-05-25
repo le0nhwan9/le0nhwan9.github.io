@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>histogram on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/histogram/</link>
+    <link>https://le0nhwan9.github.io/tags/histogram/</link>
     <description>Recent content in histogram on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 20 May 2023 17:32:59 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/histogram/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 May 2023 17:32:59 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/histogram/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: 好用的 histogram</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-15-useful-histogram/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-15-useful-histogram/</link>
       <pubDate>Sat, 20 May 2023 17:32:59 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-15-useful-histogram/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-15-useful-histogram/</guid>
       <description>最近 eBPF 轮子造的多了后，发现需要用 histogram 的时候，要写的代码就一个模板，如下。 以下内容以 syscalldist 为例。 用于 histogram 的 C 代码 参考（抄袭） libbpf-tools 里 histogram 的实现，用于 histogram 的 C 代</description>
     </item>
     

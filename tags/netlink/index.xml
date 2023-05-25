@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>netlink on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/netlink/</link>
+    <link>https://le0nhwan9.github.io/tags/netlink/</link>
     <description>Recent content in netlink on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 03 Nov 2021 22:53:38 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/netlink/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Nov 2021 22:53:38 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/netlink/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>netlink 是 Go 和内核模块之间优秀的通信兵</title>
-      <link>https://asphaltt.github.io/post/netlink-and-go/</link>
+      <link>https://le0nhwan9.github.io/post/netlink-and-go/</link>
       <pubDate>Wed, 03 Nov 2021 22:53:38 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/netlink-and-go/</guid>
+      <guid>https://le0nhwan9.github.io/post/netlink-and-go/</guid>
       <description>netlink 是 Linux 系统里用户态程序、内核模块之间的一种 IPC 方式，特别是用户态程序和内核模块之间的 IPC 通信。比如在 Linux 终端里常用的 ip 命令，就是使用 netlink 去跟内核进行</description>
     </item>
     

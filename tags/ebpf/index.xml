@@ -2,476 +2,476 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>eBPF on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/ebpf/</link>
+    <link>https://le0nhwan9.github.io/tags/ebpf/</link>
     <description>Recent content in eBPF on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 23 May 2023 23:02:47 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/ebpf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 23:02:47 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/ebpf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: trampoline stack on x86【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-44-trampoline-stack-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-44-trampoline-stack-on-x86/</link>
       <pubDate>Tue, 23 May 2023 23:02:47 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-44-trampoline-stack-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-44-trampoline-stack-on-x86/</guid>
       <description>前面学习了 trampoline 的工作原理： eBPF Talk: trampoline on x86【汇编慎入】 eBPF Talk: trampoline on x86【续】【汇编慎入】 继续深入学习 trampoline 底层实现，回答以下 2 个问题： fentry bpf prog 是如何获取</description>
     </item>
     
     <item>
       <title>eBPF Talk: trampoline on x86【续】【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-43-trampoline-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-43-trampoline-on-x86/</link>
       <pubDate>Tue, 23 May 2023 22:55:23 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-43-trampoline-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-43-trampoline-on-x86/</guid>
       <description>书接上回，使用 fexit 的时候，为什么在 ret 前增加 add $0x8,%rsp 指令就能跳过执行原来的函数？ eBPF Talk: trampoline on x86【汇编慎入】 call 学习一下几条常用指令： call %N: 相当于 push %eip + mov</description>
     </item>
     
     <item>
       <title>eBPF Talk: trampoline on x86【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-42-trampoline-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-42-trampoline-on-x86/</link>
       <pubDate>Tue, 23 May 2023 22:45:15 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-42-trampoline-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-42-trampoline-on-x86/</guid>
       <description>类似 freplace，trampoline 是对 prologue 进行 poke 的另一个应用。 eBPF Talk: freplace on x86【汇编慎入】 TL;DR 类似 freplace，trampoline 是</description>
     </item>
     
     <item>
       <title>eBPF Talk: freplace on x86【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-41-freplace-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-41-freplace-on-x86/</link>
       <pubDate>Tue, 23 May 2023 22:31:24 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-41-freplace-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-41-freplace-on-x86/</guid>
       <description>freplace 技术便是对 prologue 进行 poke 的简单应用。 eBPF Talk: poke on x86【汇编慎入】 eBPF Talk: perilogue on x86【汇编慎入】 TL;DR 究竟有多简单呢？就是将 prologue 里的第一条 nop 指令替换成 jmp 指令；</description>
     </item>
     
     <item>
       <title>eBPF Talk: perilogue on x86【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-40-perilogue-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-40-perilogue-on-x86/</link>
       <pubDate>Tue, 23 May 2023 22:25:35 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-40-perilogue-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-40-perilogue-on-x86/</guid>
       <description>perilogue 是个缝合单词，由 prologue 和 epilogue 缝合组成。 而 prologue 和 epilogue 是 函数调用规约 中的术语。 prologue: 函数整体指令中最开始的几条指令。 epilogue: 函数整体指令中最末尾的几条指令。 perilogue: 函数</description>
     </item>
     
     <item>
       <title>eBPF Talk: poke on x86【汇编慎入】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-39-poke-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-39-poke-on-x86/</link>
       <pubDate>Tue, 23 May 2023 22:22:24 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-39-poke-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-39-poke-on-x86/</guid>
       <description>小司机们，是时候学习真正的 eBPF 挖掘机技术了：指令插桩，以及指令 live patch。 TL;DR 在 x86 架构平台上的指令插桩&amp;amp;补丁的步骤如下： 在需要的地方预</description>
     </item>
     
     <item>
       <title>eBPF Talk: 学习经验之确认 kernel version</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-38-kernel-version/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-38-kernel-version/</link>
       <pubDate>Tue, 23 May 2023 22:18:00 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-38-kernel-version/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-38-kernel-version/</guid>
       <description>当我们想要在项目特定版本内核中落地某个 eBPF 特性时，需要确认该版本内核是否支持该 eBPF 特性。 与此同时，也想知道，该 eBPF 特性最低要求哪个版本的内核。 前置</description>
     </item>
     
     <item>
       <title>eBPF Talk: 实战经验之 loop</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-37-loop/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-37-loop/</link>
       <pubDate>Tue, 23 May 2023 22:14:15 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-37-loop/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-37-loop/</guid>
       <description>最近刚好打算使用 for 遍历 CIDR 数组的方式替换性能较差的 LPM trie bpf map，就顺便总结一下 loop 相关经验。 在 eBPF 中，出于性能、安全考虑，并不支持无限循环。这并不</description>
     </item>
     
     <item>
       <title>eBPF Talk: XDP redirect to AF_XDP</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-36-xdp-redirect-to-af_xdp/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-36-xdp-redirect-to-af_xdp/</link>
       <pubDate>Tue, 23 May 2023 22:09:09 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-36-xdp-redirect-to-af_xdp/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-36-xdp-redirect-to-af_xdp/</guid>
       <description>通过学习 eBPF Talk: AF_XDP，我们掌握了 AF_XDP 的那些基础知识。 提问：对于如下高性能场景，在网卡收到网络包后，该网络包会被哪个 AF_XDP socket 处理呢？ 该网卡独占一</description>
     </item>
     
     <item>
       <title>eBPF Talk: bpf2bpf &amp; tailcall 报错分析</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-35-bpf2bpf-and-tailcall-error/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-35-bpf2bpf-and-tailcall-error/</link>
       <pubDate>Tue, 23 May 2023 22:06:44 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-35-bpf2bpf-and-tailcall-error/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-35-bpf2bpf-and-tailcall-error/</guid>
       <description>终于要将 bpf2bpf &amp;amp; tailcall 的组合落地到项目中了。 不过，当头一棒的是：tail_calls are not allowed when call stack of previous frames is 256 bytes. Too large。 幸好学习过 eBPF Talk: tailcall on x86，</description>
     </item>
     
     <item>
       <title>eBPF Talk: 使用 AF_XDP 加速网络【译】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-34-af_xdp/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-34-af_xdp/</link>
       <pubDate>Tue, 23 May 2023 22:02:31 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-34-af_xdp/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-34-af_xdp/</guid>
       <description>本文翻译自 2018 年的 LWN: Accelerating networking with AF_XDP。 以下为译文。 Linux 网络栈不缺乏特性，且对于大部分使用场景都有不错的性能表现。不过，随着网络的高速发展，对网</description>
     </item>
     
     <item>
       <title>eBPF Talk: tailcall on x86【汇编慎入】【译】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-33-tailcall-on-x86/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-33-tailcall-on-x86/</link>
       <pubDate>Tue, 23 May 2023 21:48:41 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-33-tailcall-on-x86/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-33-tailcall-on-x86/</guid>
       <description>本文翻译自 Assembly within! BPF tail calls on x86 and ARM，翻译了其中 tailcall 与 x86 部分，略过 arm 部分。 eBPF Talk: tailcall 与 bpf2bpf 【译】 以下为译文。 最初我们学习编程的时候，我们就学习了 递归。较</description>
     </item>
     
     <item>
       <title>eBPF Talk: tailcall 与 bpf2bpf【译】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-32-tailcall-and-bpf2bpf/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-32-tailcall-and-bpf2bpf/</link>
       <pubDate>Tue, 23 May 2023 21:44:17 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-32-tailcall-and-bpf2bpf/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-32-tailcall-and-bpf2bpf/</guid>
       <description>本文翻译自 Cilium 出品的 BPF and XDP Reference Guide，翻译了其中的 tailcall 和 bpf2bpf 部分。 tailcall：尾调用。 bpf2bpf：BPF 到 BPF 函数调用。 tailcall tailcall 可以看作允许</description>
     </item>
     
     <item>
       <title>eBPF Talk: 全局变量、常量与 bpf map</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-31-global-variable-constant-variable-and-bpf-map/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-31-global-variable-constant-variable-and-bpf-map/</link>
       <pubDate>Sun, 21 May 2023 23:38:54 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-31-global-variable-constant-variable-and-bpf-map/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-31-global-variable-constant-variable-and-bpf-map/</guid>
       <description>全局变量的用法请参考 eBPF Talk: 全局变量实战指南。 常量的使用例子请参考 为 eBPF 程序注入黑魔法。 有同事提了个问题：在 eBPF 运行的时候是怎么访问它们的内存的呢？</description>
     </item>
     
     <item>
       <title>eBPF Talk: veth, XDP, GRO ?</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-30-veth-xdp-gro/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-30-veth-xdp-gro/</link>
       <pubDate>Sun, 21 May 2023 23:33:35 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-30-veth-xdp-gro/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-30-veth-xdp-gro/</guid>
       <description>书接上回 eBPF Talk: XDP 转发失败了，今回讲解为什么从物理网卡的驱动模式 XDP 程序 xdp_redirect() 到 veth 设备时一定要开启对端设备的 GRO 功能？ 网络包 xdp_redirect() 转发到哪里去？ 简单而言，网</description>
     </item>
     
     <item>
       <title>eBPF Talk: XDP 转发失败了</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-29-failed-to-xdp-redirect/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-29-failed-to-xdp-redirect/</link>
       <pubDate>Sun, 21 May 2023 23:29:32 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-29-failed-to-xdp-redirect/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-29-failed-to-xdp-redirect/</guid>
       <description>奇葩场景遇到个奇葩问题。 为了更好的性能，就将 XDP 程序挂载到网卡驱动里。但有个业务需求，在 XDP 程序里将需要延迟的流量转发到 veth 设备。所以，就直接在 XDP</description>
     </item>
     
     <item>
       <title>eBPF Talk: 在 veth 上运行 XDP</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-28-xdp-on-veth/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-28-xdp-on-veth/</link>
       <pubDate>Sun, 21 May 2023 16:41:37 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-28-xdp-on-veth/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-28-xdp-on-veth/</guid>
       <description>veth 设备在 Linux 容器网络里被广泛使用，像其它网络设备一样都支持运行 XDP 程序。 与此同时，veth 设备还支持 driver 模式的 XDP 程序。 如果在往 veth 设备上挂载 XDP 程序时</description>
     </item>
     
     <item>
       <title>eBPF Talk: XDP metadata 实战指南</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-27-xdp-metadata-in-action/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-27-xdp-metadata-in-action/</link>
       <pubDate>Sun, 21 May 2023 16:34:35 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-27-xdp-metadata-in-action/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-27-xdp-metadata-in-action/</guid>
       <description>最近需要在两个 XDP 程序之间传递一个最简单的信息，原本想着使用使用一个 bpf map 来传递。经过同事提醒，有 XDP metadata 可以用来传递简单信息，我便解锁了 XDP metadata 技术。</description>
     </item>
     
     <item>
       <title>eBPF Talk: 低性能 eBPF ACL</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-26-iptables-in-bpf/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-26-iptables-in-bpf/</link>
       <pubDate>Sun, 21 May 2023 16:24:22 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-26-iptables-in-bpf/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-26-iptables-in-bpf/</guid>
       <description>eBPF Talk: 再论高性能 eBPF ACL 中的 ACL 规则匹配算法比较复杂，晦涩难懂；相对于 iptables 而言，该实现就比较难维护了。这就是为了性能而牺牲了可维护性。 所以，有没有类似</description>
     </item>
     
     <item>
       <title>eBPF Talk: 揭秘 XDP 转发网络包【续】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-25-xdp-redirect-packet/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-25-xdp-redirect-packet/</link>
       <pubDate>Sun, 21 May 2023 16:22:07 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-25-xdp-redirect-packet/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-25-xdp-redirect-packet/</guid>
       <description>书接 eBPF Talk: 揭秘 XDP 转发网络包 未竟的内容，看看最后 generic_xdp_tx() 函数中的发包详情。 1 2 3 4 5 6 // ${KERNEL}/net/core/dev.c generic_xdp_tx() |--&amp;gt;netdev_start_xmit() |--&amp;gt;__netdev_start_xmit() |--&amp;gt;ops-&amp;gt;ndo_start_xmit(skb, dev); 由以上函数调用栈可知，XDP_REDIRECT 和 XDP_TX</description>
     </item>
     
     <item>
       <title>eBPF Talk: bpf verifier 报告 ENOSPC</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-24-bpf-verifier-enospc/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-24-bpf-verifier-enospc/</link>
       <pubDate>Sun, 21 May 2023 16:19:32 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-24-bpf-verifier-enospc/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-24-bpf-verifier-enospc/</guid>
       <description>今天遇到个不常见的问题：在往内核装载 bpf 程序时，bpf verifier 报告错误： 1 failed to load bpf with bitmap size 8: failed to load bpf obj and bpf maps: field Acl: program acl: load program: no space left on device: 578: R0=map_value(id=0,off=0,ks=8,vs=64,imm=0) R1_w=map_ptr(id=0,off=0,ks=4,vs=4,imm=0) R2_w=fp-4 R3_w=invP1 R4=invP(id=69 (3524 line(s) omitted) 觉</description>
     </item>
     
     <item>
       <title>eBPF Talk: 一个 ARRAY bpf map 的使用细节</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-23-a-concrete-usage-of-array-map/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-23-a-concrete-usage-of-array-map/</link>
       <pubDate>Sun, 21 May 2023 16:17:25 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-23-a-concrete-usage-of-array-map/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-23-a-concrete-usage-of-array-map/</guid>
       <description>创建 bpf map 时，出现了如下错误： 1 failed to load bpf: failed to create map: invalid argument 看下需要创建的 bpf map： 1 2 3 4 5 6 struct { __uint(type, BPF_MAP_TYPE_ARRAY); __type(key, __u8); __type(value, bitmap); __uint(max_entries, PROTO_MAX_ENTRIES); } acl_protocol SEC(&amp;#34;.maps&amp;#34;); 想着，需要处理的 protocol 也就 TCP</description>
     </item>
     
     <item>
       <title>eBPF Talk: 全局变量实战指南</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-22-global-variables-in-action/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-22-global-variables-in-action/</link>
       <pubDate>Sun, 21 May 2023 16:12:19 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-22-global-variables-in-action/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-22-global-variables-in-action/</guid>
       <description>类似于常量的使用，如今在 eBPF 里也能够使用全局变量了。 使用例子 源代码：global-variable example 以 kprobe TCP 连接建立事件为例子，当有新的 TCP 连接时</description>
     </item>
     
     <item>
       <title>eBPF Talk: 优化 XDP ACL</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-21-xdp-acl-optimisation/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-21-xdp-acl-optimisation/</link>
       <pubDate>Sun, 21 May 2023 16:08:36 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-21-xdp-acl-optimisation/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-21-xdp-acl-optimisation/</guid>
       <description>书接上回 ，本文讲解对高性能 XDP ACL 的开源项目 xdp_acl 的优化内容： 按需开启 eBPF 中的 debug 日志 动态调整 bitmap 大小 使用 PERCPU ARRAY 优化规则 bpf map 动态增删 ACL 规则的处理 以下代码片段</description>
     </item>
     
     <item>
       <title>eBPF Talk: 再论高性能 eBPF ACL</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-20-xdp-acl-again/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-20-xdp-acl-again/</link>
       <pubDate>Sun, 21 May 2023 16:03:32 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-20-xdp-acl-again/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-20-xdp-acl-again/</guid>
       <description>因为近期又得搞基于 eBPF 的 ACL，所以再次研究基于 eBPF 的 ACL 的几篇论文和一个开源项目。 以前，我研究过 「eBPF技术实践：高性能ACL」，并实现了一个</description>
     </item>
     
     <item>
       <title>eBPF Talk: SKB 工作原理【译】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-19-how-skbs-work/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-19-how-skbs-work/</link>
       <pubDate>Sun, 21 May 2023 16:00:09 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-19-how-skbs-work/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-19-how-skbs-work/</guid>
       <description>翻译自 How SKBs work。 数据区域的布局 第一张图描述的是 SKB 数据区域的布局，以及几个 struct sk_buff 中的指针。 本文余下内容将讲解 SKB 数据区域的操作：通过修改这些指</description>
     </item>
     
     <item>
       <title>eBPF Talk: bpf helpers 的另一面</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-18-another-side-of-bpf-helpers/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-18-another-side-of-bpf-helpers/</link>
       <pubDate>Sat, 20 May 2023 17:48:25 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-18-another-side-of-bpf-helpers/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-18-another-side-of-bpf-helpers/</guid>
       <description>本文不讲解 bpf helpers 的使用，也不讲解 bpf helpers 的源代码。本文讲解的是，verifier 是怎么处理 bpf helpers 的。 书接上回 eBPF Talk: 揭秘 XDP 转发网络包，本文解答： 为什么 XDP</description>
     </item>
     
     <item>
       <title>eBPF Talk: 揭秘 XDP 转发网络包</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-17-xdp-redirect-packet/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-17-xdp-redirect-packet/</link>
       <pubDate>Sat, 20 May 2023 17:41:10 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-17-xdp-redirect-packet/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-17-xdp-redirect-packet/</guid>
       <description>书接上回 eBPF Talk: 解密 XDP generic 模式，本文从源代码层面剖析 XDP 转发网络包的实现。 demo 按需将网络包从另一张网卡转发走。 1 2 3 4 5 6 7 8 9 static volatile const u32 REDIRECT_IFINDEX = 0xFFFFFFFF; SEC(&amp;#34;xdp&amp;#34;) int xdp_redirect(struct xdp_md</description>
     </item>
     
     <item>
       <title>eBPF Talk: 解密 XDP generic 模式</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-16-xdp-generic-mode/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-16-xdp-generic-mode/</link>
       <pubDate>Sat, 20 May 2023 17:37:39 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-16-xdp-generic-mode/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-16-xdp-generic-mode/</guid>
       <description>近期又得搞 XDP 了，就顺手研究了下 XDP generic 模式的源代码。 XDP generic 模式的函数位置 已知，内核协议栈会对每个 skb 都执行一次 XDP generic 模式处理，当然是启用了 XDP generic 模式的情</description>
     </item>
     
     <item>
       <title>eBPF Talk: 好用的 histogram</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-15-useful-histogram/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-15-useful-histogram/</link>
       <pubDate>Sat, 20 May 2023 17:32:59 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-15-useful-histogram/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-15-useful-histogram/</guid>
       <description>最近 eBPF 轮子造的多了后，发现需要用 histogram 的时候，要写的代码就一个模板，如下。 以下内容以 syscalldist 为例。 用于 histogram 的 C 代码 参考（抄袭） libbpf-tools 里 histogram 的实现，用于 histogram 的 C 代</description>
     </item>
     
     <item>
       <title>eBPF Talk: bpf2bpf 特性揭秘</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-14-bpf2bpf-functions-call/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-14-bpf2bpf-functions-call/</link>
       <pubDate>Sat, 20 May 2023 17:26:45 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-14-bpf2bpf-functions-call/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-14-bpf2bpf-functions-call/</guid>
       <description>在 eBPF Talk: bpf2bpf 特性简介 中已介绍了 bpf2bpf 特性，同时有 demo 介绍该怎么使用该特性。 在该特性神秘面纱的背后，到底是怎样的呢？让我娓娓道来。 编译阶段 不懂编译器 clang 中</description>
     </item>
     
     <item>
       <title>eBPF Talk: cilium/ebpf 中 bpf map 的诞生</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-13-bpf-map-new-born-in-cilium_ebpf/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-13-bpf-map-new-born-in-cilium_ebpf/</link>
       <pubDate>Sat, 20 May 2023 17:17:39 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-13-bpf-map-new-born-in-cilium_ebpf/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-13-bpf-map-new-born-in-cilium_ebpf/</guid>
       <description>在博客 eBPF Talk: 揭秘 BPF map 前生今世，已讲解了 bpf map 从定义到创建的整个过程。 不过博客中讲解的加载器是 C 语言的 libbpf。 在此，就讲解一下纯 Go 语言的加载</description>
     </item>
     
     <item>
       <title>eBPF Talk: bpf map 源码导读</title>
-      <link>https://asphaltt.github.io/post/ebpf-map-source-code-reading-guide/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-map-source-code-reading-guide/</link>
       <pubDate>Wed, 04 Jan 2023 22:34:51 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-map-source-code-reading-guide/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-map-source-code-reading-guide/</guid>
       <description>eBPF map 有诸多类型。如果想要理解它们的实现，该如何去阅读它们的源代码呢？ 类型接口 在内核的源代码海洋中，接口的定义一般是：结构体的字段都是函数指针</description>
     </item>
     
     <item>
       <title>eBPF Talk: syscalldist: raw tracepoint 实战</title>
-      <link>https://asphaltt.github.io/post/ebpf-syscalldist/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-syscalldist/</link>
       <pubDate>Thu, 22 Dec 2022 22:25:37 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-syscalldist/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-syscalldist/</guid>
       <description>bcc/libbpf-tools 里有许多使用 bcc 实现的小工具。 咱们也来实现一个类似的工具吧。 raw tracepoint 不同于 tracepoint，raw tracepoint 的资料较少。 关于 eBPF 进行 raw tracepoint 的资料更少： bpf,</description>
     </item>
     
     <item>
       <title>eBPF Talk: 两个简单好用的 map 处理函数</title>
-      <link>https://asphaltt.github.io/post/ebpf-two-map-helpers/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-two-map-helpers/</link>
       <pubDate>Wed, 21 Dec 2022 21:26:02 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-two-map-helpers/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-two-map-helpers/</guid>
       <description>最近在用 eBPF 造轮子的时候，发现其中一个处理函数；而后，自己有样学样地封装了另外一个函数。 bpf_map_lookup_or_try_init 函数名称有点长。 该函数是用来查询某个 key 对应的 valu</description>
     </item>
     
     <item>
       <title>eBPF Talk: 此汇编非彼汇编</title>
-      <link>https://asphaltt.github.io/post/ebpf-asm-and-insn/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-asm-and-insn/</link>
       <pubDate>Wed, 21 Dec 2022 21:20:30 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-asm-and-insn/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-asm-and-insn/</guid>
       <description>此汇编：在 C 代码里使用的 asm volatile 汇编代码。 彼汇编：eBPF verifier、JIT、runtime VM 等地方使用的汇编指令。 在文章 BPF 尾调用简介 里，</description>
     </item>
     
     <item>
       <title>eBPF Talk: eBPF 尾调用简介</title>
-      <link>https://asphaltt.github.io/post/ebpf-tailcall-intro/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-tailcall-intro/</link>
       <pubDate>Thu, 24 Nov 2022 22:11:05 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-tailcall-intro/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-tailcall-intro/</guid>
       <description>在 bpf2bpf 特性简介 中提及到 bpf_tail_call()，我们就认真学习一下它吧。 bpf_tail_call 从 4.2 内核版本开始，eBPF 支持了尾调用特性。 该特性的主要特点是</description>
     </item>
     
     <item>
       <title>eBPF Talk: bpf2bpf 特性简介</title>
-      <link>https://asphaltt.github.io/post/ebpf-bpf2bpf-functions-call/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-bpf2bpf-functions-call/</link>
       <pubDate>Wed, 16 Nov 2022 22:32:06 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-bpf2bpf-functions-call/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-bpf2bpf-functions-call/</guid>
       <description>最近才了解到 eBPF 里有 bpf2bpf 这个特性，故特意学习了一番。 bpf2bpf 简介 bpf2bpf 特性要求 4.16 内核版本，参考 BPF Features by Linux Kernel Version。 在 bpf2bpf 特性出现之前，eBPF 程序都要</description>
     </item>
     
     <item>
       <title>eBPF Talk: BPF map 趣事一则</title>
-      <link>https://asphaltt.github.io/post/ebpf-a-bpf-map-story/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-a-bpf-map-story/</link>
       <pubDate>Sun, 13 Nov 2022 21:06:38 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-a-bpf-map-story/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-a-bpf-map-story/</guid>
       <description>有同事报告一个错误：lookup: cannot allocate memory，并请求如何解决。 lookup 项目中使用的 eBPF 库是 cilium/ebpf。查看一下 BPF map lookup 的源代码，如下</description>
     </item>
     
     <item>
       <title>eBPF Talk: 为当前内核提供外部 BTF 文件</title>
-      <link>https://asphaltt.github.io/post/ebpf-external-btf/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-external-btf/</link>
       <pubDate>Sun, 06 Nov 2022 21:42:05 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-external-btf/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-external-btf/</guid>
       <description>最近系统地学习了 eBPF CO-RE（Compile Once, Run Everywhere，一次编译，到处运行），其中包括了 BTF。 BTF，BPF Type Format，</description>
     </item>
     
     <item>
       <title>eBPF Talk: 比 kprobe 更好的 trampoline</title>
-      <link>https://asphaltt.github.io/post/ebpf-trampoline-better-than-kprobe/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-trampoline-better-than-kprobe/</link>
       <pubDate>Tue, 01 Nov 2022 23:31:04 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-trampoline-better-than-kprobe/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-trampoline-better-than-kprobe/</guid>
       <description>eBPF trampoline（trampoline：蹦床，翻译后并不好理解，所以不作翻译）是内核函数和 eBPF 程序之间的桥梁，基于 register_ftrace_direct() 实现。它实现了 kprobe/kretprobe 的功</description>
     </item>
     
     <item>
       <title>eBPF Talk: CPU and NUMA</title>
-      <link>https://asphaltt.github.io/post/ebpf-cpu-and-numa/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-cpu-and-numa/</link>
       <pubDate>Mon, 31 Oct 2022 19:26:29 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-cpu-and-numa/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-cpu-and-numa/</guid>
       <description>在现代的服务器中，基本上 CPU 采用的都是多核 NUMA 架构。对于网络而言，一个网络包从物理网卡驱动出来之后，并到达对应的应用层 socket，最好都在同一</description>
     </item>
     
     <item>
       <title>eBPF CO-RE 的终极一步</title>
-      <link>https://asphaltt.github.io/post/ebpf-final-step-to-co-re/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-final-step-to-co-re/</link>
       <pubDate>Mon, 31 Oct 2022 19:16:57 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-final-step-to-co-re/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-final-step-to-co-re/</guid>
       <description>请移步：eBPF CO-RE 的终极一步。</description>
     </item>
     
     <item>
       <title>eBPF Talk: 宏的两种写法</title>
-      <link>https://asphaltt.github.io/post/ebpf-two-macros/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-two-macros/</link>
       <pubDate>Sun, 30 Oct 2022 15:45:41 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-two-macros/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-two-macros/</guid>
       <description>宏是 C 语言中最强大的语言特性，能够用来简化 eBPF 的 C 代码；毕竟 eBPF 的 C 代码是一种语法、语义都受限的 C 代码，不能像普通 C 代码那样“肆意妄为”。 写法一</description>
     </item>
     
     <item>
       <title>eBPF Talk: 变量声明的位置</title>
-      <link>https://asphaltt.github.io/post/ebpf-variables-declaration-location/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-variables-declaration-location/</link>
       <pubDate>Sat, 29 Oct 2022 15:03:41 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-variables-declaration-location/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-variables-declaration-location/</guid>
       <description>据了解（未查证），从 clang12 开始，eBPF 代码中的变量声明不再要求写在函数体的最前方，而是可以按需声明并初始化。 写法一：一次性声明全部的变量 1 2 3</description>
     </item>
     
     <item>
       <title>为 eBPF 程序注入黑魔法 【正确姿势】</title>
-      <link>https://asphaltt.github.io/post/ebpf-black-magic-correct/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-black-magic-correct/</link>
       <pubDate>Wed, 24 Aug 2022 22:09:42 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-black-magic-correct/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-black-magic-correct/</guid>
       <description>为 eBPF 程序注入黑魔法 【错误姿势】 中提出的在加载阶段中动态变更常量值的办法并不可靠，毕竟在 cilium/ebpf 中已提供了重写常量的函数 RewriteConstan</description>
     </item>
     
     <item>
       <title>为 eBPF 程序注入黑魔法 【错误姿势】</title>
-      <link>https://asphaltt.github.io/post/ebpf-black-magic/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-black-magic/</link>
       <pubDate>Sat, 11 Jun 2022 14:35:17 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-black-magic/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-black-magic/</guid>
       <description>在 Kubernetes 集群环境下，如果跨节点的 Pod 需要组成多个 VPC 网络，使用 eBPF 的时候，该如何在 CNI 层面动态地为每个 Pod 分配 VXLAN VNI 或者 VLAN ID 呢？ 一个简单可行的办法是，每次 CNI</description>
     </item>
     
     <item>
       <title>demo for 「eBPF 技术实践：高性能 ACL」</title>
-      <link>https://asphaltt.github.io/post/iptables-bpf-acl/</link>
+      <link>https://le0nhwan9.github.io/post/iptables-bpf-acl/</link>
       <pubDate>Fri, 01 Apr 2022 21:14:32 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/iptables-bpf-acl/</guid>
+      <guid>https://le0nhwan9.github.io/post/iptables-bpf-acl/</guid>
       <description>在阅读了字节跳动发出的公众号文章 eBPF 技术实践：高性能 ACL 后，对其中提出的 O(1) 匹配算法颇为佩服；但初始看了好几遍，都没看懂这个匹配算法。如今看懂后，</description>
     </item>
     
     <item>
       <title>在内核模块里运行 bpf 程序</title>
-      <link>https://asphaltt.github.io/post/kernel-module-with-bpf/</link>
+      <link>https://le0nhwan9.github.io/post/kernel-module-with-bpf/</link>
       <pubDate>Sun, 19 Dec 2021 16:50:09 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/kernel-module-with-bpf/</guid>
+      <guid>https://le0nhwan9.github.io/post/kernel-module-with-bpf/</guid>
       <description>参考 iptables-bpf 的源代码实现，尝试在自定义的内核模块里运行指定的 bpf 程序。 使用的 bpf 程序源代码： iptables-bpf 内核模块源代码：Kernel module fun 效果 1 2 3 4 5 6 7 8 9 10</description>
     </item>
     
     <item>
       <title>iptables-bpf 的实现原理分析</title>
-      <link>https://asphaltt.github.io/post/iptables-bpf-source-code-reading/</link>
+      <link>https://le0nhwan9.github.io/post/iptables-bpf-source-code-reading/</link>
       <pubDate>Sun, 19 Dec 2021 14:27:19 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/iptables-bpf-source-code-reading/</guid>
+      <guid>https://le0nhwan9.github.io/post/iptables-bpf-source-code-reading/</guid>
       <description>该如此玩转 iptables-bpf 原始魔杖 iptables 配上新发明的药水 eBPF，这是怎么做到的呢？让我们一探 iptables-bpf 究竟。 实现原理 用法：iptables -I OUTPUT -m bpf --object-pinned $(EBPF_PINNED) -j DROP bpf 是 iptables 的一</description>
     </item>
     
     <item>
       <title>该如此玩转 iptables-bpf</title>
-      <link>https://asphaltt.github.io/post/iptables-bpf/</link>
+      <link>https://le0nhwan9.github.io/post/iptables-bpf/</link>
       <pubDate>Thu, 16 Dec 2021 23:26:45 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/iptables-bpf/</guid>
+      <guid>https://le0nhwan9.github.io/post/iptables-bpf/</guid>
       <description>在看 iptables-nfqueue 源代码的时候，发现 iptables 有 bpf 特性，于是查了下 iptables-bpf 的资料。 使用iptables的bpf match来优化规则集-HiPAC/ipset/n+1模</description>
     </item>
     
     <item>
       <title>skbtracer: Linux 内核网络包路径追踪利器</title>
-      <link>https://asphaltt.github.io/post/skbtracer/</link>
+      <link>https://le0nhwan9.github.io/post/skbtracer/</link>
       <pubDate>Tue, 02 Nov 2021 23:19:12 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/skbtracer/</guid>
+      <guid>https://le0nhwan9.github.io/post/skbtracer/</guid>
       <description>skbtracer 是基于 eBPF 技术的 skb 网络包路径追踪利器，基于 goebpf , libbpf-bootstrap (required Linux Kernel 4.15+ with CONFIG_DEBUG_INFO_BTF=y, Go 1.16+) 实现，参考 Python 版本 github.com/DavadDi/skbtracer。 skbtracer</description>
     </item>
     

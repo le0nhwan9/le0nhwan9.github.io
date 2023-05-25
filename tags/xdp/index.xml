@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>XDP on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/xdp/</link>
+    <link>https://le0nhwan9.github.io/tags/xdp/</link>
     <description>Recent content in XDP on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 23 May 2023 22:09:09 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/xdp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 22:09:09 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/xdp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: XDP redirect to AF_XDP</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-36-xdp-redirect-to-af_xdp/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-36-xdp-redirect-to-af_xdp/</link>
       <pubDate>Tue, 23 May 2023 22:09:09 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-36-xdp-redirect-to-af_xdp/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-36-xdp-redirect-to-af_xdp/</guid>
       <description>通过学习 eBPF Talk: AF_XDP，我们掌握了 AF_XDP 的那些基础知识。 提问：对于如下高性能场景，在网卡收到网络包后，该网络包会被哪个 AF_XDP socket 处理呢？ 该网卡独占一</description>
     </item>
     
     <item>
       <title>eBPF Talk: veth, XDP, GRO ?</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-30-veth-xdp-gro/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-30-veth-xdp-gro/</link>
       <pubDate>Sun, 21 May 2023 23:33:35 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-30-veth-xdp-gro/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-30-veth-xdp-gro/</guid>
       <description>书接上回 eBPF Talk: XDP 转发失败了，今回讲解为什么从物理网卡的驱动模式 XDP 程序 xdp_redirect() 到 veth 设备时一定要开启对端设备的 GRO 功能？ 网络包 xdp_redirect() 转发到哪里去？ 简单而言，网</description>
     </item>
     
     <item>
       <title>eBPF Talk: XDP 转发失败了</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-29-failed-to-xdp-redirect/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-29-failed-to-xdp-redirect/</link>
       <pubDate>Sun, 21 May 2023 23:29:32 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-29-failed-to-xdp-redirect/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-29-failed-to-xdp-redirect/</guid>
       <description>奇葩场景遇到个奇葩问题。 为了更好的性能，就将 XDP 程序挂载到网卡驱动里。但有个业务需求，在 XDP 程序里将需要延迟的流量转发到 veth 设备。所以，就直接在 XDP</description>
     </item>
     
     <item>
       <title>eBPF Talk: 在 veth 上运行 XDP</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-28-xdp-on-veth/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-28-xdp-on-veth/</link>
       <pubDate>Sun, 21 May 2023 16:41:37 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-28-xdp-on-veth/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-28-xdp-on-veth/</guid>
       <description>veth 设备在 Linux 容器网络里被广泛使用，像其它网络设备一样都支持运行 XDP 程序。 与此同时，veth 设备还支持 driver 模式的 XDP 程序。 如果在往 veth 设备上挂载 XDP 程序时</description>
     </item>
     
     <item>
       <title>eBPF Talk: XDP metadata 实战指南</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-27-xdp-metadata-in-action/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-27-xdp-metadata-in-action/</link>
       <pubDate>Sun, 21 May 2023 16:34:35 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-27-xdp-metadata-in-action/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-27-xdp-metadata-in-action/</guid>
       <description>最近需要在两个 XDP 程序之间传递一个最简单的信息，原本想着使用使用一个 bpf map 来传递。经过同事提醒，有 XDP metadata 可以用来传递简单信息，我便解锁了 XDP metadata 技术。</description>
     </item>
     
     <item>
       <title>eBPF Talk: 揭秘 XDP 转发网络包【续】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-25-xdp-redirect-packet/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-25-xdp-redirect-packet/</link>
       <pubDate>Sun, 21 May 2023 16:22:07 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-25-xdp-redirect-packet/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-25-xdp-redirect-packet/</guid>
       <description>书接 eBPF Talk: 揭秘 XDP 转发网络包 未竟的内容，看看最后 generic_xdp_tx() 函数中的发包详情。 1 2 3 4 5 6 // ${KERNEL}/net/core/dev.c generic_xdp_tx() |--&amp;gt;netdev_start_xmit() |--&amp;gt;__netdev_start_xmit() |--&amp;gt;ops-&amp;gt;ndo_start_xmit(skb, dev); 由以上函数调用栈可知，XDP_REDIRECT 和 XDP_TX</description>
     </item>
     
     <item>
       <title>eBPF Talk: 揭秘 XDP 转发网络包</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-17-xdp-redirect-packet/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-17-xdp-redirect-packet/</link>
       <pubDate>Sat, 20 May 2023 17:41:10 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-17-xdp-redirect-packet/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-17-xdp-redirect-packet/</guid>
       <description>书接上回 eBPF Talk: 解密 XDP generic 模式，本文从源代码层面剖析 XDP 转发网络包的实现。 demo 按需将网络包从另一张网卡转发走。 1 2 3 4 5 6 7 8 9 static volatile const u32 REDIRECT_IFINDEX = 0xFFFFFFFF; SEC(&amp;#34;xdp&amp;#34;) int xdp_redirect(struct xdp_md</description>
     </item>
     
     <item>
       <title>eBPF Talk: 解密 XDP generic 模式</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-16-xdp-generic-mode/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-16-xdp-generic-mode/</link>
       <pubDate>Sat, 20 May 2023 17:37:39 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-16-xdp-generic-mode/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-16-xdp-generic-mode/</guid>
       <description>近期又得搞 XDP 了，就顺手研究了下 XDP generic 模式的源代码。 XDP generic 模式的函数位置 已知，内核协议栈会对每个 skb 都执行一次 XDP generic 模式处理，当然是启用了 XDP generic 模式的情</description>
     </item>
     

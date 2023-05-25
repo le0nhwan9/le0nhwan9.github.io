@@ -2,89 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iptables on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/iptables/</link>
+    <link>https://le0nhwan9.github.io/tags/iptables/</link>
     <description>Recent content in iptables on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 21 May 2023 16:24:22 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/iptables/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 May 2023 16:24:22 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/iptables/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: 低性能 eBPF ACL</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-26-iptables-in-bpf/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-26-iptables-in-bpf/</link>
       <pubDate>Sun, 21 May 2023 16:24:22 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-26-iptables-in-bpf/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-26-iptables-in-bpf/</guid>
       <description>eBPF Talk: 再论高性能 eBPF ACL 中的 ACL 规则匹配算法比较复杂，晦涩难懂；相对于 iptables 而言，该实现就比较难维护了。这就是为了性能而牺牲了可维护性。 所以，有没有类似</description>
     </item>
     
     <item>
       <title>demo for 「eBPF 技术实践：高性能 ACL」</title>
-      <link>https://asphaltt.github.io/post/iptables-bpf-acl/</link>
+      <link>https://le0nhwan9.github.io/post/iptables-bpf-acl/</link>
       <pubDate>Fri, 01 Apr 2022 21:14:32 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/iptables-bpf-acl/</guid>
+      <guid>https://le0nhwan9.github.io/post/iptables-bpf-acl/</guid>
       <description>在阅读了字节跳动发出的公众号文章 eBPF 技术实践：高性能 ACL 后，对其中提出的 O(1) 匹配算法颇为佩服；但初始看了好几遍，都没看懂这个匹配算法。如今看懂后，</description>
     </item>
     
     <item>
       <title>一文吃透 Linux TProxy 透明代理</title>
-      <link>https://asphaltt.github.io/post/linux-how-tproxy-works/</link>
+      <link>https://le0nhwan9.github.io/post/linux-how-tproxy-works/</link>
       <pubDate>Fri, 24 Dec 2021 23:34:52 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-how-tproxy-works/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-how-tproxy-works/</guid>
       <description>Linux 透明代理并不是一个独立的功能模块，而是一个功能特性。在使用 Linux 透明代理的时候，需要 iptables, ip-rule, ip-route 和应用程序一起协同工作。 Linux 透明代理相关博客： knet</description>
     </item>
     
     <item>
       <title>iptables-bpf 的实现原理分析</title>
-      <link>https://asphaltt.github.io/post/iptables-bpf-source-code-reading/</link>
+      <link>https://le0nhwan9.github.io/post/iptables-bpf-source-code-reading/</link>
       <pubDate>Sun, 19 Dec 2021 14:27:19 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/iptables-bpf-source-code-reading/</guid>
+      <guid>https://le0nhwan9.github.io/post/iptables-bpf-source-code-reading/</guid>
       <description>该如此玩转 iptables-bpf 原始魔杖 iptables 配上新发明的药水 eBPF，这是怎么做到的呢？让我们一探 iptables-bpf 究竟。 实现原理 用法：iptables -I OUTPUT -m bpf --object-pinned $(EBPF_PINNED) -j DROP bpf 是 iptables 的一</description>
     </item>
     
     <item>
       <title>该如此玩转 iptables-bpf</title>
-      <link>https://asphaltt.github.io/post/iptables-bpf/</link>
+      <link>https://le0nhwan9.github.io/post/iptables-bpf/</link>
       <pubDate>Thu, 16 Dec 2021 23:26:45 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/iptables-bpf/</guid>
+      <guid>https://le0nhwan9.github.io/post/iptables-bpf/</guid>
       <description>在看 iptables-nfqueue 源代码的时候，发现 iptables 有 bpf 特性，于是查了下 iptables-bpf 的资料。 使用iptables的bpf match来优化规则集-HiPAC/ipset/n+1模</description>
     </item>
     
     <item>
       <title>iptables-nfqueue 的使用</title>
-      <link>https://asphaltt.github.io/post/iptables-nfqueue-usage/</link>
+      <link>https://le0nhwan9.github.io/post/iptables-nfqueue-usage/</link>
       <pubDate>Sun, 12 Dec 2021 15:10:20 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/iptables-nfqueue-usage/</guid>
+      <guid>https://le0nhwan9.github.io/post/iptables-nfqueue-usage/</guid>
       <description>本文主要翻译自 Using NFQUEUE and libnetfilter_queue，将 C 代码例子换成 Go 代码例子。 介绍 NFQUEUE 是一种 iptables 和 ip6tables 的目标（an iptables and ip6tables target），将</description>
     </item>
     
     <item>
       <title>一文吃透 iptables-nfqueue</title>
-      <link>https://asphaltt.github.io/post/iptables-nfqueue/</link>
+      <link>https://le0nhwan9.github.io/post/iptables-nfqueue/</link>
       <pubDate>Thu, 09 Dec 2021 23:54:39 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/iptables-nfqueue/</guid>
+      <guid>https://le0nhwan9.github.io/post/iptables-nfqueue/</guid>
       <description>iptables 常用，iptables-nfqueue 少用。因需要深度理解 iptables-nfqueue，所以顺手撸了一遍 iptables-nfqueue 的源代码。 iptables-nfqueue ，aka NFQU</description>
     </item>
     
     <item>
       <title>使用 Go 对接 iptables NFQUEUE 的例子</title>
-      <link>https://asphaltt.github.io/post/go-nfnetlink-example/</link>
+      <link>https://le0nhwan9.github.io/post/go-nfnetlink-example/</link>
       <pubDate>Wed, 03 Nov 2021 23:06:24 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/go-nfnetlink-example/</guid>
+      <guid>https://le0nhwan9.github.io/post/go-nfnetlink-example/</guid>
       <description>最近在学习 iptables NFQUEUE 的时候，顺手使用 Go 语言写了一个例子。 源代码：github.com/Asphaltt/go-nfnetlink-example 例</description>
     </item>
     
     <item>
       <title>Linux 策略路由导流到本地</title>
-      <link>https://asphaltt.github.io/post/linux-solve-policy-routing-problem/</link>
+      <link>https://le0nhwan9.github.io/post/linux-solve-policy-routing-problem/</link>
       <pubDate>Sat, 23 Jan 2021 18:33:40 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-solve-policy-routing-problem/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-solve-policy-routing-problem/</guid>
       <description>在做 Linux 代理流量回放实验 时，因 ip route 配置失误导致实验失败；排查了一个星期，最终在阅读 Inline on a Linux router 博客时发现了配置失误的地方。 代理流量回放实验 在 namespace server</description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>metadata on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/metadata/</link>
+    <link>https://le0nhwan9.github.io/tags/metadata/</link>
     <description>Recent content in metadata on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 21 May 2023 16:34:35 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/metadata/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 May 2023 16:34:35 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/metadata/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: XDP metadata 实战指南</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-27-xdp-metadata-in-action/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-27-xdp-metadata-in-action/</link>
       <pubDate>Sun, 21 May 2023 16:34:35 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-27-xdp-metadata-in-action/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-27-xdp-metadata-in-action/</guid>
       <description>最近需要在两个 XDP 程序之间传递一个最简单的信息，原本想着使用使用一个 bpf map 来传递。经过同事提醒，有 XDP metadata 可以用来传递简单信息，我便解锁了 XDP metadata 技术。</description>
     </item>
     

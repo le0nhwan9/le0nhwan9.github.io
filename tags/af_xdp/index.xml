@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AF_XDP on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/af_xdp/</link>
+    <link>https://le0nhwan9.github.io/tags/af_xdp/</link>
     <description>Recent content in AF_XDP on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 23 May 2023 22:09:09 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/af_xdp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 22:09:09 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/af_xdp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: XDP redirect to AF_XDP</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-36-xdp-redirect-to-af_xdp/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-36-xdp-redirect-to-af_xdp/</link>
       <pubDate>Tue, 23 May 2023 22:09:09 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-36-xdp-redirect-to-af_xdp/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-36-xdp-redirect-to-af_xdp/</guid>
       <description>通过学习 eBPF Talk: AF_XDP，我们掌握了 AF_XDP 的那些基础知识。 提问：对于如下高性能场景，在网卡收到网络包后，该网络包会被哪个 AF_XDP socket 处理呢？ 该网卡独占一</description>
     </item>
     
     <item>
       <title>eBPF Talk: 使用 AF_XDP 加速网络【译】</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-34-af_xdp/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-34-af_xdp/</link>
       <pubDate>Tue, 23 May 2023 22:02:31 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-34-af_xdp/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-34-af_xdp/</guid>
       <description>本文翻译自 2018 年的 LWN: Accelerating networking with AF_XDP。 以下为译文。 Linux 网络栈不缺乏特性，且对于大部分使用场景都有不错的性能表现。不过，随着网络的高速发展，对网</description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bpf verifier on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/bpf-verifier/</link>
+    <link>https://le0nhwan9.github.io/tags/bpf-verifier/</link>
     <description>Recent content in bpf verifier on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 21 May 2023 16:19:32 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/bpf-verifier/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 May 2023 16:19:32 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/bpf-verifier/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eBPF Talk: bpf verifier 报告 ENOSPC</title>
-      <link>https://asphaltt.github.io/post/ebpf-talk-24-bpf-verifier-enospc/</link>
+      <link>https://le0nhwan9.github.io/post/ebpf-talk-24-bpf-verifier-enospc/</link>
       <pubDate>Sun, 21 May 2023 16:19:32 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/ebpf-talk-24-bpf-verifier-enospc/</guid>
+      <guid>https://le0nhwan9.github.io/post/ebpf-talk-24-bpf-verifier-enospc/</guid>
       <description>今天遇到个不常见的问题：在往内核装载 bpf 程序时，bpf verifier 报告错误： 1 failed to load bpf with bitmap size 8: failed to load bpf obj and bpf maps: field Acl: program acl: load program: no space left on device: 578: R0=map_value(id=0,off=0,ks=8,vs=64,imm=0) R1_w=map_ptr(id=0,off=0,ks=4,vs=4,imm=0) R2_w=fp-4 R3_w=invP1 R4=invP(id=69 (3524 line(s) omitted) 觉</description>
     </item>
     

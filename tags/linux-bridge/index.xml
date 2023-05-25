@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux bridge on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/tags/linux-bridge/</link>
+    <link>https://le0nhwan9.github.io/tags/linux-bridge/</link>
     <description>Recent content in Linux bridge on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 23 Jan 2021 17:31:10 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/tags/linux-bridge/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Jan 2021 17:31:10 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/tags/linux-bridge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux 代理流量回放实验</title>
-      <link>https://asphaltt.github.io/post/linux-replay-proxy-traffic-experiment/</link>
+      <link>https://le0nhwan9.github.io/post/linux-replay-proxy-traffic-experiment/</link>
       <pubDate>Sat, 23 Jan 2021 17:31:10 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-replay-proxy-traffic-experiment/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-replay-proxy-traffic-experiment/</guid>
       <description>代理流量回放方案 在 SOCKS5、TCP PROXY、Nginx 等代理中，如若需要对代理的流量还原成真实的 IP 网络包并发给网络审计设备，可以采取如</description>
     </item>
     
     <item>
       <title>Linux bridge 强制泛洪实验</title>
-      <link>https://asphaltt.github.io/post/linux-bridge-flood-experiment/</link>
+      <link>https://le0nhwan9.github.io/post/linux-bridge-flood-experiment/</link>
       <pubDate>Sat, 16 Jan 2021 16:34:24 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-bridge-flood-experiment/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-bridge-flood-experiment/</guid>
       <description>在上一章 Linux bridge 泛洪 中介绍了 Linux bridge 强制泛洪的原理，接下来抓一下 bridge 泛洪出来的网络包。 环境准备 学习了 docker网络之namespace 、 docker</description>
     </item>
     
     <item>
       <title>Linux bridge 泛洪</title>
-      <link>https://asphaltt.github.io/post/linux-bridge-flood/</link>
+      <link>https://le0nhwan9.github.io/post/linux-bridge-flood/</link>
       <pubDate>Wed, 13 Jan 2021 23:39:25 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-bridge-flood/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-bridge-flood/</guid>
       <description>在 Linux 中，bridge 是虚拟的二层网络设备。不同于 eth 或 ens 等真实的网络设备，bridge 能够让同一 Linux 系统内的其他网络设备连接起来；比如 docker 默认的网</description>
     </item>
     

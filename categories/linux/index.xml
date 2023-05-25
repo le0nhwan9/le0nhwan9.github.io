@@ -2,116 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on LeonHwang&#39;s Blogs</title>
-    <link>https://asphaltt.github.io/categories/linux/</link>
+    <link>https://le0nhwan9.github.io/categories/linux/</link>
     <description>Recent content in Linux on LeonHwang&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 22 Jan 2022 14:03:18 +0800</lastBuildDate><atom:link href="https://asphaltt.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 14:03:18 +0800</lastBuildDate><atom:link href="https://le0nhwan9.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一文吃透 Linux nsenter</title>
-      <link>https://asphaltt.github.io/post/linux-how-nsenter-works/</link>
+      <link>https://le0nhwan9.github.io/post/linux-how-nsenter-works/</link>
       <pubDate>Sat, 22 Jan 2022 14:03:18 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-how-nsenter-works/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-how-nsenter-works/</guid>
       <description>nsenter 套娃 在 Linux 系统里，nsenter 是一个命令行工具，用于进入到另一个 namespace。譬如，nsenter -n -t 1 bash 就是进入到 pid 为 1 的进程所在</description>
     </item>
     
     <item>
       <title>一文吃透 Linux TProxy 透明代理</title>
-      <link>https://asphaltt.github.io/post/linux-how-tproxy-works/</link>
+      <link>https://le0nhwan9.github.io/post/linux-how-tproxy-works/</link>
       <pubDate>Fri, 24 Dec 2021 23:34:52 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-how-tproxy-works/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-how-tproxy-works/</guid>
       <description>Linux 透明代理并不是一个独立的功能模块，而是一个功能特性。在使用 Linux 透明代理的时候，需要 iptables, ip-rule, ip-route 和应用程序一起协同工作。 Linux 透明代理相关博客： knet</description>
     </item>
     
     <item>
       <title>在内核模块里运行 bpf 程序</title>
-      <link>https://asphaltt.github.io/post/kernel-module-with-bpf/</link>
+      <link>https://le0nhwan9.github.io/post/kernel-module-with-bpf/</link>
       <pubDate>Sun, 19 Dec 2021 16:50:09 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/kernel-module-with-bpf/</guid>
+      <guid>https://le0nhwan9.github.io/post/kernel-module-with-bpf/</guid>
       <description>参考 iptables-bpf 的源代码实现，尝试在自定义的内核模块里运行指定的 bpf 程序。 使用的 bpf 程序源代码： iptables-bpf 内核模块源代码：Kernel module fun 效果 1 2 3 4 5 6 7 8 9 10</description>
     </item>
     
     <item>
       <title>netlink 是 Go 和内核模块之间优秀的通信兵</title>
-      <link>https://asphaltt.github.io/post/netlink-and-go/</link>
+      <link>https://le0nhwan9.github.io/post/netlink-and-go/</link>
       <pubDate>Wed, 03 Nov 2021 22:53:38 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/netlink-and-go/</guid>
+      <guid>https://le0nhwan9.github.io/post/netlink-and-go/</guid>
       <description>netlink 是 Linux 系统里用户态程序、内核模块之间的一种 IPC 方式，特别是用户态程序和内核模块之间的 IPC 通信。比如在 Linux 终端里常用的 ip 命令，就是使用 netlink 去跟内核进行</description>
     </item>
     
     <item>
       <title>Linux 对抗 synflood 的实现</title>
-      <link>https://asphaltt.github.io/post/linux-how-anti-synflood-works/</link>
+      <link>https://le0nhwan9.github.io/post/linux-how-anti-synflood-works/</link>
       <pubDate>Wed, 19 May 2021 21:54:30 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-how-anti-synflood-works/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-how-anti-synflood-works/</guid>
       <description>synflood 介绍 synflood 是一种 TCP 半连接攻击，会消耗尽服务器资源从而导致服务器拒绝服务。 参考搜狗百科：syn flood。 Linux 中对抗 synflood 的手段 Linux 中对抗 synflood 的主要手段是</description>
     </item>
     
     <item>
       <title>Linux 自定义 netfilter 钩子实验</title>
-      <link>https://asphaltt.github.io/post/linux-custom-netfilter-hook-experiment/</link>
+      <link>https://le0nhwan9.github.io/post/linux-custom-netfilter-hook-experiment/</link>
       <pubDate>Mon, 19 Apr 2021 23:48:58 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-custom-netfilter-hook-experiment/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-custom-netfilter-hook-experiment/</guid>
       <description>学习了 Linux netfilter 钩子执行过程，接下来在内核模块里实现一个自定义的 netfilter 钩子。 netfilter 的网络包处理流程 下图比较详细地描述了 iptables 和 ebtables 的规则执行时机： 图片来源：wi</description>
     </item>
     
     <item>
       <title>Linux netfilter 钩子执行过程</title>
-      <link>https://asphaltt.github.io/post/linux-how-netfilter-works/</link>
+      <link>https://le0nhwan9.github.io/post/linux-how-netfilter-works/</link>
       <pubDate>Sun, 18 Apr 2021 12:25:15 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-how-netfilter-works/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-how-netfilter-works/</guid>
       <description>netfilter 框架是 Linux 网络子系统里的一个核心模块，iptables 就是基于 netfilter 框架实现的一个网络包处理工具。 netfilter 框架原理介绍 在内核里，每个网络命名空间（ne</description>
     </item>
     
     <item>
       <title>knetstat：查看 socket 的 IP_TRANSPARENT 选项</title>
-      <link>https://asphaltt.github.io/post/linux-show-socket-ip_transparent-option/</link>
+      <link>https://le0nhwan9.github.io/post/linux-show-socket-ip_transparent-option/</link>
       <pubDate>Fri, 12 Feb 2021 23:34:58 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-show-socket-ip_transparent-option/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-show-socket-ip_transparent-option/</guid>
       <description>在做 Linux 代理流量回放实验 的时候，因为遇到了问题，所以想看下 socket 的 IP_TRANSPARENT 选项是否设置了。该实验使用了 Linux 透明代理的功能，而 Linux 透明代理需要用户程序在使用 socket</description>
     </item>
     
     <item>
       <title>Linux 策略路由导流到本地</title>
-      <link>https://asphaltt.github.io/post/linux-solve-policy-routing-problem/</link>
+      <link>https://le0nhwan9.github.io/post/linux-solve-policy-routing-problem/</link>
       <pubDate>Sat, 23 Jan 2021 18:33:40 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-solve-policy-routing-problem/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-solve-policy-routing-problem/</guid>
       <description>在做 Linux 代理流量回放实验 时，因 ip route 配置失误导致实验失败；排查了一个星期，最终在阅读 Inline on a Linux router 博客时发现了配置失误的地方。 代理流量回放实验 在 namespace server</description>
     </item>
     
     <item>
       <title>Linux 代理流量回放实验</title>
-      <link>https://asphaltt.github.io/post/linux-replay-proxy-traffic-experiment/</link>
+      <link>https://le0nhwan9.github.io/post/linux-replay-proxy-traffic-experiment/</link>
       <pubDate>Sat, 23 Jan 2021 17:31:10 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-replay-proxy-traffic-experiment/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-replay-proxy-traffic-experiment/</guid>
       <description>代理流量回放方案 在 SOCKS5、TCP PROXY、Nginx 等代理中，如若需要对代理的流量还原成真实的 IP 网络包并发给网络审计设备，可以采取如</description>
     </item>
     
     <item>
       <title>Linux bridge 强制泛洪实验</title>
-      <link>https://asphaltt.github.io/post/linux-bridge-flood-experiment/</link>
+      <link>https://le0nhwan9.github.io/post/linux-bridge-flood-experiment/</link>
       <pubDate>Sat, 16 Jan 2021 16:34:24 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-bridge-flood-experiment/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-bridge-flood-experiment/</guid>
       <description>在上一章 Linux bridge 泛洪 中介绍了 Linux bridge 强制泛洪的原理，接下来抓一下 bridge 泛洪出来的网络包。 环境准备 学习了 docker网络之namespace 、 docker</description>
     </item>
     
     <item>
       <title>Linux bridge 泛洪</title>
-      <link>https://asphaltt.github.io/post/linux-bridge-flood/</link>
+      <link>https://le0nhwan9.github.io/post/linux-bridge-flood/</link>
       <pubDate>Wed, 13 Jan 2021 23:39:25 +0800</pubDate>
       
-      <guid>https://asphaltt.github.io/post/linux-bridge-flood/</guid>
+      <guid>https://le0nhwan9.github.io/post/linux-bridge-flood/</guid>
       <description>在 Linux 中，bridge 是虚拟的二层网络设备。不同于 eth 或 ens 等真实的网络设备，bridge 能够让同一 Linux 系统内的其他网络设备连接起来；比如 docker 默认的网</description>
     </item>
     
